@@ -1,4 +1,4 @@
-package problem;
+package strategy_design_pattern.problem;
 
 public class RubberDuck extends Duck{
     @Override

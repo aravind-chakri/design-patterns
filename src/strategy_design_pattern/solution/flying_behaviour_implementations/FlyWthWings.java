@@ -1,6 +1,6 @@
-package solution.flying_behaviour_implementations;
+package strategy_design_pattern.solution.flying_behaviour_implementations;
 
-import solution.behaviour_interfaces.FlyingBehaviour;
+import strategy_design_pattern.solution.behaviour_interfaces.FlyingBehaviour;
 
 public class FlyWthWings implements FlyingBehaviour {
     @Override

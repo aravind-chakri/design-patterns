@@ -1,6 +1,6 @@
-package solution;
+package strategy_design_pattern.solution;
 
-import solution.quacking_behaviour_implementations.Squeak;
+import strategy_design_pattern.solution.quacking_behaviour_implementations.Squeak;
 
 public class StrategyDemo {
 

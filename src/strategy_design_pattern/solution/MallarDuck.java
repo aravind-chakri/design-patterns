@@ -1,7 +1,7 @@
-package solution;
+package strategy_design_pattern.solution;
 
-import solution.flying_behaviour_implementations.FlyWthWings;
-import solution.quacking_behaviour_implementations.Quack;
+import strategy_design_pattern.solution.flying_behaviour_implementations.FlyWthWings;
+import strategy_design_pattern.solution.quacking_behaviour_implementations.Quack;
 
 public class MallarDuck extends Duck{
 

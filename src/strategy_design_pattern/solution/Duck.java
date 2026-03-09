@@ -1,7 +1,7 @@
-package solution;
+package strategy_design_pattern.solution;
 
-import solution.behaviour_interfaces.FlyingBehaviour;
-import solution.behaviour_interfaces.QuackingBehaviour;
+import strategy_design_pattern.solution.behaviour_interfaces.FlyingBehaviour;
+import strategy_design_pattern.solution.behaviour_interfaces.QuackingBehaviour;
 
 public abstract class Duck {
 
