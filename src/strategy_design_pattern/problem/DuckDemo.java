@@ -3,12 +3,12 @@ package strategy_design_pattern.problem;
 public class DuckDemo {
     public static void main(String[] args) {
 
-        MallarDuck mallarDuck = new MallarDuck();
+        MallardDuck mallardDuck = new MallardDuck();
         RedheadDuck redheadDuck = new RedheadDuck();
         RubberDuck rubberDuck = new RubberDuck();
         DecoyDuck decoyDuck = new DecoyDuck();
 
-        mallarDuck.fly();
+        mallardDuck.fly();
         redheadDuck.quack();
         decoyDuck.fly();
         rubberDuck.swim();

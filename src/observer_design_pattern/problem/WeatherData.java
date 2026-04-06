@@ -1,8 +1,8 @@
-package observer_desgin_pattern.problem;
+package observer_design_pattern.problem;
 
-import observer_desgin_pattern.problem.display.CurrentConditionDisplay;
-import observer_desgin_pattern.problem.display.ForeCastDisplay;
-import observer_desgin_pattern.problem.display.StatisticsDisplay;
+import observer_design_pattern.problem.display.CurrentConditionDisplay;
+import observer_design_pattern.problem.display.ForecastDisplay;
+import observer_design_pattern.problem.display.StatisticsDisplay;
 
 public class WeatherData {
     float temp;
@@ -10,7 +10,7 @@ public class WeatherData {
     float pressure;
     CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay();
     StatisticsDisplay statisticsDisplay = new StatisticsDisplay();
-    ForeCastDisplay foreCastDisplay = new ForeCastDisplay();
+    ForecastDisplay forecastDisplay = new ForecastDisplay();
 
     public WeatherData(float temp, float humidity, float pressure) {
         this.temp = temp;
@@ -37,7 +37,7 @@ public class WeatherData {
         float pressure = getPressure();
 
         currentConditionDisplay.update(temp, humidity, pressure);
-        foreCastDisplay.update(temp,humidity,pressure);
+        forecastDisplay.update(temp,humidity,pressure);
         statisticsDisplay.update(temp,humidity,pressure);
 
     }

@@ -1,4 +1,4 @@
-package observer_desgin_pattern.solution;
+package observer_design_pattern.solution;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class WeatherData implements Subject{
 
     @Override
     public void removeObserver(Observer o) {
-        observers.add(o);
+        observers.remove(o);
     }
 
     @Override

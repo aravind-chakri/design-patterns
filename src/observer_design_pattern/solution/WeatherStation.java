@@ -1,8 +1,8 @@
-package observer_desgin_pattern.solution;
+package observer_design_pattern.solution;
 
-import observer_desgin_pattern.solution.display.CurrentConditionDisplay;
-import observer_desgin_pattern.solution.display.ForeCastDisplay;
-import observer_desgin_pattern.solution.display.StatisticsDisplay;
+import observer_design_pattern.solution.display.CurrentConditionDisplay;
+import observer_design_pattern.solution.display.ForecastDisplay;
+import observer_design_pattern.solution.display.StatisticsDisplay;
 
 public class WeatherStation {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class WeatherStation {
 
         CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
-        ForeCastDisplay foreCastDisplay = new ForeCastDisplay(weatherData);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
         weatherData.setMeasurements(29, 60, 33);
 

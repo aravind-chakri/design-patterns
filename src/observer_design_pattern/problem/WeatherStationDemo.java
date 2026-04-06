@@ -1,4 +1,4 @@
-package observer_desgin_pattern.problem;
+package observer_design_pattern.problem;
 
 public class WeatherStationDemo {
     public static void main(String[] args) {

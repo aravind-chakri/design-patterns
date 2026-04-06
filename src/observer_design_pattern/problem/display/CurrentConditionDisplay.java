@@ -1,4 +1,4 @@
-package observer_desgin_pattern.problem.display;
+package observer_design_pattern.problem.display;
 
 public class CurrentConditionDisplay {
 

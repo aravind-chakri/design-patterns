@@ -1,6 +1,6 @@
-package observer_desgin_pattern.problem.display;
+package observer_design_pattern.problem.display;
 
-public class ForeCastDisplay {
+public class ForecastDisplay {
 
     public void update(float temp, float humidity, float pressure) {
         System.out.println("ForecastDisplay [temp: " + temp +

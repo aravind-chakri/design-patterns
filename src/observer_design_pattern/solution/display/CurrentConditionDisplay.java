@@ -1,8 +1,8 @@
-package observer_desgin_pattern.solution.display;
+package observer_design_pattern.solution.display;
 
-import observer_desgin_pattern.solution.DisplayElement;
-import observer_desgin_pattern.solution.Observer;
-import observer_desgin_pattern.solution.WeatherData;
+import observer_design_pattern.solution.DisplayElement;
+import observer_design_pattern.solution.Observer;
+import observer_design_pattern.solution.WeatherData;
 
 public class CurrentConditionDisplay implements Observer, DisplayElement {
     private float temp;

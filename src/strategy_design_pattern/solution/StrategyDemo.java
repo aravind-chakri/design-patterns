@@ -5,11 +5,11 @@ import strategy_design_pattern.solution.quacking_behaviour_implementations.Squea
 public class StrategyDemo {
 
     public static void main(String[] args) {
-        MallarDuck mallarDuck = new MallarDuck();
-        mallarDuck.makeSound();
-        mallarDuck.setQuackingBehaviour(new Squeak());
-        mallarDuck.makeSound();
-        mallarDuck.performFly();
+        MallardDuck mallardDuck = new MallardDuck();
+        mallardDuck.makeSound();
+        mallardDuck.setQuackingBehaviour(new Squeak());
+        mallardDuck.makeSound();
+        mallardDuck.performFly();
 
         RubberDuck rubberDuck = new RubberDuck();
         rubberDuck.performFly();

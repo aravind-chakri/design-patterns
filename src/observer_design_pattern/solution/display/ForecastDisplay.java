@@ -1,22 +1,22 @@
-package observer_desgin_pattern.solution.display;
+package observer_design_pattern.solution.display;
 
-import observer_desgin_pattern.solution.DisplayElement;
-import observer_desgin_pattern.solution.Observer;
-import observer_desgin_pattern.solution.WeatherData;
+import observer_design_pattern.solution.DisplayElement;
+import observer_design_pattern.solution.Observer;
+import observer_design_pattern.solution.WeatherData;
 
-public class ForeCastDisplay implements Observer, DisplayElement {
+public class ForecastDisplay implements Observer, DisplayElement {
     private float temp;
     private float pressure;
     private WeatherData weatherData;
 
-    public ForeCastDisplay(WeatherData weatherData) {
+    public ForecastDisplay(WeatherData weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 
     @Override
     public void display() {
-        System.out.println("ForeCast Display: " + temp +
+        System.out.println("Forecast Display: " + temp +
                 " degrees temperature " + pressure + " pressure");
     }
 
