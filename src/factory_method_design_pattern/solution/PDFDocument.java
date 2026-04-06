@@ -1,0 +1,23 @@
+package factory_method_design_pattern.solution;
+
+public class PDFDocument implements Document {
+    
+    public PDFDocument() {
+        System.out.println("PDF Document created");
+    }
+    
+    @Override
+    public void open() {
+        System.out.println("Opening PDF document");
+    }
+    
+    @Override
+    public void save() {
+        System.out.println("Saving PDF document");
+    }
+    
+    @Override
+    public void close() {
+        System.out.println("Closing PDF document");
+    }
+}
